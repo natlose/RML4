@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace RML_UserControl
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PartnerUC.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PersonUC : UserControl
     {
-        public MainWindow()
+        public PersonUC()
         {
             InitializeComponent();
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            (DataContext as MainWindowVM).LoadData();
         }
     }
 }
